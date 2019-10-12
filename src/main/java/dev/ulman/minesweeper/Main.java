@@ -4,5 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+        String mineField = "*...\n..*.\n....";
+
+        MineSweeper mineSweeper = new MineSweeperImpl();
+        mineSweeper.setMineField(mineField);
     }
 }
