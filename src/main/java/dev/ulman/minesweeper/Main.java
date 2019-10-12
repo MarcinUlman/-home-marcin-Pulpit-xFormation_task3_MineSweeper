@@ -8,5 +8,6 @@ public class Main {
 
         MineSweeper mineSweeper = new MineSweeperImpl();
         mineSweeper.setMineField(mineField);
+        System.out.println(mineSweeper.getHintField());
     }
 }
